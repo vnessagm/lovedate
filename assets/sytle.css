@@ -194,3 +194,14 @@ input::placeholder{
     background-color:rgb(226, 67, 99);
     transition: 2s all;
 }
+
+@media (max-width:420px) {
+    .section1{
+        display:flex;
+        flex-diretion:column;
+        align-itens:center;
+    }
+    
+        
+    }
+    
