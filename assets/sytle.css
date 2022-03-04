@@ -198,7 +198,7 @@ input::placeholder{
 @media (max-width:420px) {
     .section1{
         display:flex;
-        flex-diretion:column;
+        flex-direction:column;
         align-itens:center;
     }
     
