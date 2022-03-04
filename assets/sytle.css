@@ -27,6 +27,7 @@ header{
     display:flex;
     justify-content: center;
     margin-top: 100px;
+    flex-wrap:wrap;
    
 }
 
@@ -76,11 +77,13 @@ header{
     align-items: center;
     margin-top:100px ;
     height: 400px;
+    flex-wrap:wrap;
 
 }
 .cards{
     display: flex;
     flex-direction: row;
+    flex-wrap:wrap;
 
 }
 
@@ -99,6 +102,7 @@ header{
     flex-direction: column;
     font-weight: bold;
     cursor: pointer;
+    flex-wrap:wrap;
 }
 
 .card img {
@@ -116,6 +120,7 @@ header{
     background-color: crimson;
     height:300px;
     width:300px;
+    flex-wrap:wrap;
 }
 
 .section3 h1{
@@ -151,6 +156,7 @@ header{
     margin-top: 100px;
     flex-direction: column;
     align-items: center;
+    flex-wrap:wrap;
 }
 
 .area_form h2{
@@ -195,13 +201,8 @@ input::placeholder{
     transition: 2s all;
 }
 
-@media (max-width:420px) {
-    .section1{
-        display:flex;
-        flex-direction:column;
-         align-items:center;
-    }
+
     
         
-    }
+   
     
